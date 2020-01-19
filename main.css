@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #24252A;*/
+} 
+
+body{
+  background-image: url(image/silver-colored-microphone.png);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+}
+
+header{
+  display: flex;
+  flex-direction: space-between;
+}
+
+.navbar {
+  flex-flow: flex-start;
+    display: flex;
+    align-items: center;
+    padding: 30px ;
+    margin-left: auto;
+}
+
+.logo {
+  flex-flow: flex-end;
+    cursor: pointer;
+    margin-right: 250px;
+    margin-left: 0px;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 20px;
+}
+
+.nav_link li a:hover {
+    color: #f8f9fa;
+    /*margin-left: 20px;*/
+    padding: 9px 25px;
+    background-color: rgba(133, 5, 174,0.6);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+
+
+@media screen and (max-width: 768px){
+    html, body {
+    overflow-x: hidden;
+  }
+
+  header{
+    height: -50px;
+  }
+
+  body{
+    max-width: fit-co;
+    font-size: 0.6rem;
+  }
+
+  .logo{
+    display: none;
+  }
+
+   .hamburger{
+    position: fixed;
+    cursor: pointer;
+    right: 88%;
+    top: 5%;
+    size: 20px;
+    transform: translate(-5%, -50%);
+  }
+
+    .nav_link {
+      position: relative;
+    background: #050E22;
+    height: 100vh;
+    width: 100%;
+    transition: all 1s ease-out;
+
+  }
+
+  .navbar{
+    position: relative;
+  }
+
+  .nav_link{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    
+  }
+
+  header{
+    position: relative;
+  }
+
+  .radioplayer{
+    width: 0.4vh
+  }
+
+
+  footer{
+    background: cover;
+  }
+}
+
+
+.container_welcome{
+ display: flex;
+ flex-direction: column-reverse;
+ align-content: center;
+ justify-content: center;
+  margin-bottom: 40px;
+  padding: 60px 20px;
+}
+
+.welcome{
+  order: 2;
+  color: rgb(131, 131, 128);
+  text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.row{
+  order: 1;
+}
+
+.blog_intro{
+    background-color: rgba(133, 5, 174,0.6) ;
+    width: stretch;
+}
+
+.blog-text {
+  text-align: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.blog_intro{
+  display: grid;
+  text-align: center;
+}
+
+.recent_blog{
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+.blog_date{
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.blog_title {
+  align-content: center;
+  text-transform: initial;
+}
+
+.blog1 {
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 20px 0px;
+  width: 400px;
+  order: 2;
+  align-content: ;
+}
+
+.blog1 p{
+  text-align: center;
+}
+
+.blog2 {
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 20px 0px;
+  width: 400px;
+  order: 2;
+  align-content: ;
+}
+
+.blog2 p{
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+  height: 5em;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+   
+    
+    bottom: 0;
+}
