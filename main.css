@@ -28,21 +28,28 @@ body{
 header{
   display: flex;
   flex-direction: space-between;
+  position: sticky;
+  top: 0px;
+  background: rgba(2, 5, 13, 0.9);
 }
 
 .navbar {
   flex-flow: flex-start;
     display: flex;
     align-items: center;
-    padding: 30px ;
+    padding: 10px ;
     margin-left: auto;
+    height: 15vh;
+    float: right;
 }
 
 .logo {
-  flex-flow: flex-end;
+  */flex-flow: flex-end;*/
     cursor: pointer;
     margin-right: 250px;
     margin-left: 0px;
+    height: 10vh;
+    float: left;
 }
 
 li, a {
@@ -59,34 +66,32 @@ li, a {
 
 .nav_link li {
     display: inline-block;
-    padding: 0px 20px;
-    margin: 20px;
+    padding: 0px 15px;
+    margin: 10px;
 }
 
 .nav_link li a:hover {
     color: #f8f9fa;
     /*margin-left: 20px;*/
     padding: 9px 25px;
-    background-color: rgba(133, 5, 174,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.1s ease 0s;
 }
 
+main{
+  color: rgb(243, 222, 0);
+}
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     html, body {
     overflow-x: hidden;
   }
-
-  header{
-    height: -50px;
-  }
-
   body{
     max-width: fit-co;
-    font-size: 0.6rem;
+   /* font-size: 0.6rem;*/
   }
 
   .logo{
@@ -94,29 +99,44 @@ li, a {
   }
 
    .hamburger{
-    position: fixed;
+    position: relative;
     cursor: pointer;
     right: 88%;
-    top: 5%;
+    top: 2%;
     size: 20px;
     transform: translate(-5%, -50%);
   }
 
-    .nav_link {
-      position: relative;
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #050E22;
+    top: 80px;
+    left: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  ul li a{
+    margin: 20px 20px 50px 20px;
+  }
+
+
+
+   /* .nav_link {
+    position: relative;
     background: #050E22;
     height: 100vh;
     width: 100%;
     transition: all 1s ease-out;
-
-  }
+  }*/
 
   .navbar{
     position: relative;
   }
 
   .nav_link{
-    position: fixed;
+    position: fixe;
     display: flex;
     flex-direction: column;
   }
@@ -126,16 +146,17 @@ li, a {
     width: 30px;
     height: 3px;
     background: white;
-    margin: 5px;
-    
-  }
-
-  header{
-    position: relative;
+    margin: 5px; 
   }
 
   .radioplayer{
     width: 0.4vh
+  }
+
+  .blog_intro{
+    display: flex;
+    flex-direction: column;
+    size: 1em;
   }
 
 
