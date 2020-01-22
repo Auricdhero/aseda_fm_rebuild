@@ -141,6 +141,10 @@ main{
     flex-direction: column;
   }
 
+  .active{
+    color: rgb(243, 183, 0);
+  }
+
 
   .line {
     width: 30px;
