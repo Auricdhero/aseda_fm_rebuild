@@ -1,0 +1,37 @@
+{
+  "name": "aseda_fm_rebuild",
+  "version": "1.0.0",
+  "description": "backend build",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets env", 
+    "release": "npm run clean && npm run build && npm run serve", 
+    "clean": "rm -rf dist && mkdir dist", "build": "babel . -s -D -d dist --presets env --ignore node_modules", 
+    "serve": "node dist/server.js", 
+    "test": "ase"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwodjobeans/aseda_fm_rebuild.git"
+  },
+  "keywords": [
+    "aseda",
+    "online",
+    "fm"
+  ],
+  "author": "Auric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qwodjobeans/aseda_fm_rebuild/issues"
+  },
+  "homepage": "https://github.com/qwodjobeans/aseda_fm_rebuild#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -44,7 +44,7 @@ header{
 }
 
 .logo {
-  */flex-flow: flex-end;*/
+  /*flex-flow: flex-end;*/
     cursor: pointer;
     margin-right: 250px;
     margin-left: 0px;
@@ -233,7 +233,7 @@ main{
   padding: 20px 0px;
   width: 400px;
   order: 2;
-  align-content: ;
+  /*align-content: ;*/
 }
 
 .blog1 p{
@@ -246,7 +246,7 @@ main{
   padding: 20px 0px;
   width: 400px;
   order: 2;
-  align-content: ;
+  /*align-content: ;*/
 }
 
 .blog2 p{
