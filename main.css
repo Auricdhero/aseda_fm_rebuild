@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /*background-color: #24252A;*/
+   
 } 
 
 body{
@@ -44,12 +44,10 @@ header{
 }
 
 .logo {
-  /*flex-flow: flex-end;*/
     cursor: pointer;
-    margin-right: 250px;
     margin-left: 0px;
     height: 10vh;
-    float: left;
+    
 }
 
 li, a {
@@ -85,7 +83,7 @@ main{
   color: rgb(243, 183, 0);
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 960px){
     html, body {
     overflow-x: hidden;
   }
@@ -255,9 +253,16 @@ main{
 
 .about_container{
   padding: 10px 0px;
+  background-color: rgba(2, 5, 13, 0.7);
+  border: none;
+  border-radius: 30px;
 }
 
 .about_container p{
+  text-align: center;
+}
+
+.caption{
   text-align: center;
 }
 footer{
@@ -265,7 +270,8 @@ footer{
   height: 10em;
   width: 100%;
   bottom: 0px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: rgba(2, 5, 13, 1);
+  color: white;
 }
 
 footer ul{
@@ -278,7 +284,6 @@ footer ul li{
   margin: 0px 20px ;
   color: black;
   height: 2em;
-  background-color: rgba(0,0,0,0.8);
   align-content: center;
   padding: 8px 15px;
   border: none;
