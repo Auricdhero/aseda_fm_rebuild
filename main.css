@@ -69,7 +69,6 @@ li, a {
 
 .nav_link li a:hover {
     color: #f8f9fa;
-    /*margin-left: 20px;*/
     padding: 9px 25px;
     background-color: rgba(255, 255, 255, 0.6);
     border: none;
@@ -87,8 +86,7 @@ main{
     overflow-x: hidden;
   }
   body{
-    max-width: fit-co;
-   /* font-size: 0.6rem;*/
+    
   }
 
   .logo{
