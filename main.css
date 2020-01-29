@@ -159,12 +159,16 @@ main{
   }
 
 
-  footer{
-    background: cover;
-  }
+  
 }
-
-
+footer{
+  background: cover;
+  margin-top: 10%;
+}
+.page_title{
+  text-align: center;
+  font-size: larger;
+}
 .container_welcome{
  display: flex;
  flex-direction: column-reverse;
@@ -176,7 +180,7 @@ main{
 
 .welcome{
   order: 2;
-  color: rgb(131, 131, 128);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -187,6 +191,7 @@ main{
 
 .row{
   order: 1;
+  background-color: #000000a8;
 }
 
 .blog_intro{
