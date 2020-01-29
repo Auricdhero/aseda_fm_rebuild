@@ -257,8 +257,25 @@ main{
 }
 
 .blog_main{
-  display: flex;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 
+  "a b"
+  "c c";
   margin-left: 10px;
+}
+
+.blog_left_sidebar{
+  grid-area: a;
+}
+
+.blog_right_sidebar{
+  grid-area: b;
+}
+
+.blog_buttom_sidebar{
+  grid-area: c;
+  display: flex;
 }
 
 article{
@@ -284,15 +301,6 @@ article ul li{
   margin: 0px 10px 0px 10px;
 }
 
-.blog_left_sidebar{
-  order: 1;
-  float: left;
-}
-
-.blog_right_sidebar{
-  order: 2;
-  float: right;
-}
 .about_container p{
   text-align: center;
 }
