@@ -169,6 +169,7 @@ footer{
 }
 .page_title{
   text-align: center;
+  font-size: larger;
 }
 .container_welcome{
  display: flex;
@@ -181,7 +182,7 @@ footer{
 
 .welcome{
   order: 2;
-  color: rgb(131, 131, 128);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -192,6 +193,7 @@ footer{
 
 .row{
   order: 1;
+  background-color: #000000a8;
 }
 
 .blog_intro{
