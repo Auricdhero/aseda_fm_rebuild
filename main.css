@@ -173,16 +173,22 @@ footer{
 }
 .container_welcome{
  display: flex;
- flex-direction: column-reverse;
- align-content: center;
  justify-content: center;
   margin-bottom: 40px;
   padding: 60px 20px;
+  
+}
+
+.welcome{
+  width: 800px;
+  background-color: #000000a8;
 }
 
 .welcome{
   order: 2;
   color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 80px;
   text-align: center;
 }
 
@@ -193,7 +199,6 @@ footer{
 
 .row{
   order: 1;
-  background-color: #000000a8;
 }
 
 .blog_intro{
