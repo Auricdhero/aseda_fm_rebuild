@@ -27,7 +27,7 @@ header{
   flex-direction: space-between;
   position: sticky;
   top: 0px;
-  background: rgba(2, 5, 13, 0.9);
+  background: rgb(2, 5, 13);
 }
 
 .navbar {
@@ -145,13 +145,17 @@ main{
     margin: 5px; 
   }
 
- 
+  
+  .radioplayer{
+    background-color: 
+  }
+
   .blog_intro{
     display: flex;
     flex-direction: column;
     size: 1em;
   }
-  
+
 
   footer{
     background: cover;
@@ -162,16 +166,7 @@ main{
   text-align: center;
   font-size: larger;
   color: white;
-}
-
-.page_title h1{
-  background-color: #000000a8;
-  margin-top: -15px;
-}
-
-h1{
-  background-color: #000000a8;
-  color: white;
+  background-color: #000000a8;;
 }
 
 .container_welcome{
@@ -245,6 +240,7 @@ h1{
   padding: 20px 0px;
   width: 400px;
   order: 2;
+  /*align-content: ;*/
 }
 
 .blog1 p{
