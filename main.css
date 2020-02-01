@@ -151,7 +151,7 @@ main{
     flex-direction: column;
     size: 1em;
   }
-
+  
 
   footer{
     background: cover;
@@ -162,7 +162,16 @@ main{
   text-align: center;
   font-size: larger;
   color: white;
-  background-color: #000000a8;;
+}
+
+.page_title h1{
+  background-color: #000000a8;
+  margin-top: -15px;
+}
+
+h1{
+  background-color: #000000a8;
+  color: white;
 }
 
 .container_welcome{
